@@ -24,7 +24,7 @@ epochs = 10
 
 x_train = x_train.reshape(x_train.shape[0], img_rows, img_cols, 1).astype('float32') / 255.
 x_test = x_test.reshape(x_test.shape[0], img_rows, img_cols, 1).astype('float32') / 255.
-input_shape = (1, img_rows, img_cols)
+input_shape = (img_rows, img_cols, 1)
 
 # convert class vectors to binary class matrices
 y_train = to_categorical(y_train.astype('float32'))
