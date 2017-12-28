@@ -1,6 +1,7 @@
 # Capsule Network running over MNIST data.
-
 # The code for the capsule layers have been taken from https://github.com/XifengGuo/CapsNet-Keras/blob/master/capsulelayers.py
+# Author: Shobhit Lamba
+# e-mail: slamba4@uic.edu
 
 import numpy as np
 import keras
